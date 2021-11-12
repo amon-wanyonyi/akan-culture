@@ -13,59 +13,63 @@
 </head>
 
 <body>
-    <form action="">
-        <div class="container bg-info text-dark">
-            <div class="form-outline">
-                <label class="form-label" for="typeNumber"></label>
-                <input type="number" placeholder="Day" min="1" max="3" required class="form-control " />
-            </div>
-            <hr>
-            <div class="form-outline ">
-                <label class="form-label " for="typeNumber"></label>
-                <input type="number" placeholder="Month" min="1" max="12" required class="form-control " />
-            </div>
-            <hr>
-            <div class="form-outline ">
-                <label class="form-label " for="typeNumber "></label>
-                <input type="number" placeholder="Year" min="1810" max="2022" maxlength="4" required class="form-control " />
-            </div>
-            <hr>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="Gender" value="Male" required>
-                <label class="form-check-label" for="male">
-              Male
-            </label>
-            </div>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="Gender" value="Female" required>
-                <label class="form-check-label" for="male">
-              Female
-            </label>
+    <main class="bg-info text-dark">
+        <form action="">
+            <div class="container">
+                <div class="form-outline">
+                    <label class="form-label" for="typeNumber"></label>
+                    <input type="number" placeholder="Day" min="1" max="3" required class="form-control " />
+                </div>
+                <hr>
+                <div class="form-outline ">
+                    <label class="form-label " for="typeNumber"></label>
+                    <input type="number" placeholder="Month" min="1" max="12" required class="form-control " />
+                </div>
+                <hr>
+                <div class="form-outline ">
+                    <label class="form-label " for="typeNumber "></label>
+                    <input type="number" placeholder="Year" min="1810" max="2022" maxlength="4" required class="form-control " />
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Gender" value="Male" required>
+                    <label class="form-check-label" for="male">
+                  Male
+                </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Gender" value="Female" required>
+                    <label class="form-check-label" for="male">
+                  Female
+                </label>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn-primary" onclick="akanName()">Submit</button>
+            </div>
+        </form>
+        <div class="container mt-5">
+            <div class="text-center">
+                <p class="text-center">
+                    The naming is date of birth and gender based.
+                </p>
             </div>
         </div>
-        <div class="text-center">
-            <button type="submit" class="btn-primary" onclick="akanName()">Submit</button>
-        </div>
-    </form>
-    <div class="container mt-5">
-        <div class="text-center">
-            <p class="text-center">
-                The naming is date of birth and gender based.
-            </p>
-        </div>
-    </div>
 
-    <div class="footer-container">
-        <div class="d-flex justify-content-center pt-5">
-            <p class="pe-5">@amon Copyrights by @amon</p>
-            <p><a href="https://amon-wanyonyi.github.io/portfolio/">My Portfolio</a></p>
+        <div class="footer-container   bg-success">
+            <div class="d-flex justify-content-center pt-5">
+                <p class="pe-5">@amon Copyrights by @amon</p>
+                <p><a href="https://amon-wanyonyi.github.io/portfolio/">My Portfolio</a></p>
+            </div>
         </div>
-    </div>
-    <script src="./js/akan.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="./js/akan.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    </main>
 
 </body>
 
