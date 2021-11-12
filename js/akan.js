@@ -13,7 +13,7 @@
      }
  }
 
- // function to call AKAN names from users input
+ // function to call AKAN names basing on user input
  function AkanName() {
      var day = parseInt(document.getElementById("day").value);
      var month = parseInt(document.getElementById("month").value);
@@ -34,7 +34,7 @@
      return gender === "Male" ? boyNames[dayIndex] : girlNames[dayIndex];
  }
 
- // ? act as an alternative to the above statement and returns a boolean
+ // Alternative for call function - returns Boolean
 
  var CC, YY, MM, DD, d, dayValue;
 
