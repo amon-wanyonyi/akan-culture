@@ -2,6 +2,7 @@
 ## Author: Amon Wanyonyi
 ## Description
 ###### The web application takes the user's inputs - date of birth as per the input fields, and depending <br> on the checked gender, alerts the newborn's name.
+![Akan-screenshot](assets/Akan-screenshot.png)
 ### Technologies used:
 
 > - Bootstrap version 5
